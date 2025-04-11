@@ -9,5 +9,5 @@ function getClock() {
     clock.innerText = `${hours}:${minutes}:${seconds}`;
 }
 
-getClock(); //이 코드가 없을 경우 함수를 1초 후에 실행행
+getClock(); //이 코드가 없을 경우 함수를 1초 후에 실행
 setInterval(getClock, 1000); //함수를 1초마다 실행
